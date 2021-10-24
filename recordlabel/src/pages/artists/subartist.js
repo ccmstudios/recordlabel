@@ -3,10 +3,10 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom";
 import Artistcard from "../../components/artistcard";
-import NYG from "../../assets/images/nyg.jpg";
-import Starzz from "../../assets/images/starzz.jpg";
-import Danitria from "../../assets/images/danitria.jpg";
-import Enfinite from "../../assets/images/enfinite.jpg";
+import Miccheck2 from "../../assets/images/miccheck2.jpg";
+import Guitar from "../../assets/images/guitar.jpg";
+import Pose from "../../assets/images/pose.jpg";
+import Allthelights from "../../assets/images/allthelights.jpg";
 import "./artists.css";
 
 class Subartists extends React.Component {
@@ -20,20 +20,20 @@ class Subartists extends React.Component {
 
         <Row>
           <Col id="maincard">
-            <Artistcard name="N.Y.G." img={NYG} />
+            <Artistcard name="N.Y.G." img={Guitar} />
           </Col>
         </Row>
         <br></br>
         <br></br>
         <Row>
           <Col>
-            <Artistcard name="Starzz" img={Starzz} />
+            <Artistcard name="Starzz" img={Allthelights} />
           </Col>
           <Col>
-            <Artistcard name="Danitria" img={Danitria} />
+            <Artistcard name="Danitria" img={Pose} />
           </Col>
           <Col>
-            <Artistcard name="Enfinite" img={Enfinite} />
+            <Artistcard name="Enfinite" img={Miccheck2} />
           </Col>
         </Row>
       </div>

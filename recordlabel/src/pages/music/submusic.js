@@ -3,6 +3,10 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import {Link} from 'react-router-dom'
 import Artistcard from '../../components/artistcard'
+import Redpose from '../../assets/images/redpose.jpg'
+import Smokeartist from '../../assets/images/smokeartist.jpg'
+import Album from '../../assets/images/album.jpg'
+import Miccheck from '../../assets/images/miccheck.jpg'
 
 
 class Submusic extends React.Component{
@@ -13,12 +17,12 @@ class Submusic extends React.Component{
      <Link to ='/music'><a href=''>View All</a></Link>
 
      <Row>
-         <Col id='maincard'><Artistcard/></Col>
+         <Col id='maincard'><Artistcard name='Bravo feat Pooh Bear' img={Album}/></Col>
      </Row>
      <Row>
-         <Col><Artistcard/></Col>
-         <Col><Artistcard/></Col>
-         <Col><Artistcard/></Col>
+         <Col><Artistcard name='Bravo feat Pooh Bear' img={Smokeartist}/></Col>
+         <Col><Artistcard name='Bravo feat Pooh Bear' img={Redpose}/></Col>
+         <Col><Artistcard name='Bravo feat Pooh Bear' img={Miccheck}/></Col>
      </Row>
 
             </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Subartists from "../artists/subartist";
-import Groupshot4 from '../../assets/images/groupshot4.jpg'
+import Concert from '../../assets/images/concert.jpg'
 import Submusic from "../music/submusic";
 import Subvideos from "../videos/subvideos";
 import Subnews from "../news/subnews";
@@ -14,7 +14,7 @@ class Home extends React.Component {
         <div>
           <div className="jumbotron jumbotron-fluid">
             <div className="container">
-              <img id="bannerimage" src={Groupshot4} />
+              <img id="bannerimage" src={Concert} />
             </div>
           </div>
         </div>
