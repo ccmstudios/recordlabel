@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.record {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .record {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#blakktitan{
+  width: 110px;
+  float: left;
+}
+
+#bannerimage{
+  width: 100%;
+  transform:scale(1);
+  transition: ease 0.5s;
+  filter: grayscale(100%);
+
+}
+
+#bannerimage:hover{
+  overflow: none;
+  transform: scale(0.9);
+}
+#navbar{
+  list-style:none;
+  display: flex;
+  justify-content: right;
+  width: 90%;
+}
+#navbar li{
+  padding: 10px;
+}
+
+#navbar li a{
+  text-decoration: none;
+}
+#subnav{
+  list-style:none;
+  display: flex;
+  justify-content: right;
+  width: 90%;
+  align-items: right;
+}
+
+#subnav li{
+  padding: 10px;
+}
+
+#subnav li img{
+  width: 30px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
