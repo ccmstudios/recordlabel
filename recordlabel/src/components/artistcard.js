@@ -4,9 +4,9 @@ import Button from 'react-bootstrap/Button'
 
 const Artistcard = props => {
         return(
-            <div>
+            <div id='artistcard'> 
                 <Card style={{ width: '22rem'}}>
-  <Card.Img variant="top" src={props.img}/>
+  <Card.Img className='overflow'variant="top" src={props.img}/>
   <Card.Body>
     <Card.Title>{props.name}</Card.Title>
     <Button variant="outline-dark">See more</Button>

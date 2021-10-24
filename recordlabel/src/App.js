@@ -22,20 +22,7 @@ function App() {
           <Route exact path='/news' component={News}></Route>
           <Route exact path='/videos' component={Videos}></Route >
           <Route exact path='/merch' component={Merch}></Route>
-      <header className="App-header">
-        <img src={record} className="record" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
     </div>
         </Switch>
       </Router>

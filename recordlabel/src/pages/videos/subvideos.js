@@ -18,21 +18,22 @@ class Subvideos extends React.Component {
             <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"
-                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-                width="100%"
-                height="100%"
+                url="https://www.youtube.com/watch?v=nfWlot6h_JM"
+                width="540px"
+                height="540px"
               />
             </div>
           </Col>
         </Row>
+        <br></br>
         <Row>
           <Col>
             <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"
-                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-                width="100%"
-                height="100%"
+                url="https://www.youtube.com/watch?v=adLGHcj_fmA"
+                width="320px"
+                height="320px"
               />
             </div>
           </Col>
@@ -40,9 +41,9 @@ class Subvideos extends React.Component {
             <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"
-                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-                width="100%"
-                height="100%"
+                url="https://www.youtube.com/watch?v=VYOjWnS4cMY"
+                width="320px"
+                height="320px"
               />
             </div>
           </Col>
@@ -50,9 +51,9 @@ class Subvideos extends React.Component {
             <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"
-                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-                width="100%"
-                height="100%"
+                url="https://www.youtube.com/watch?v=rYEDA3JcQqw"
+                width="320px"
+                height="320px"
               />
             </div>
           </Col>
